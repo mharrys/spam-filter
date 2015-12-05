@@ -20,6 +20,9 @@ The Enron-Spam corpus is collected from 150 employees working at Enron and
 SpamAssassin is a collection of donated e-mails. It could be that Enron-Spam
 does not give enough variation for the spam filter to generalize.
 
+The feature methods used for better results are only minor, the best
+improvement comes from bi-grams.
+
 ## Potential problems and future works
 
 There appear to be e-mails that are encrypted or with attachments that are
