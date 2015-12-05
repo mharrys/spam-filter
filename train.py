@@ -51,13 +51,10 @@ clf = clf.fit(X_train, y_train)
 
 
 print('Evaluating classifier on the test set...')
-
-
 print('Confusion matrix:')
 y_pred = clf.predict(X_test)
 cm = confusion_matrix(y_test, y_pred)
 print(cm)
-
 
 cm_tn, cm_fn = cm[0][0], cm[0][1]
 cm_tp, cm_fp = cm[1][1], cm[1][0]
@@ -65,6 +62,5 @@ print('%s spams correctly classified as spam' % cm_tp)
 print('%s hams correctly classified as ham' % cm_tn)
 print('%s hams incorrectly classified as spam' % cm_fp)
 print('%s spams incorrectly classified as ham' % cm_fn)
-
 
 print(classification_report(y_test, y_pred, target_names=CLASSES))
