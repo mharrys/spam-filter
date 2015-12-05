@@ -28,9 +28,8 @@ improvement comes from bi-grams.
 There appear to be e-mails that are encrypted or with attachments that are
 not removed but could potentially affect the results.
 
-The feature vector dimensions are huge and most likely need to reduce their
-dimensions for better results. It could also be interesting to use SVM over
-Naive Bayes.
+The feature vector dimensions are huge and most likely need to have them reduced
+for better results. It could also be interesting to use SVM over Naive Bayes.
 
 Lastly it would also be interesting to explore another corpus.
 
