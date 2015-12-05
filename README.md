@@ -7,8 +7,9 @@ Simple spam filter trained with multinomial Naive Bayes.
 [SpamAssassin](http://www.csmining.org/index.php/spam-assassin-datasets.html)
 and [Enron-Spam](http://www.aueb.gr/users/ion/data/enron-spam/) was used when
 developing this spam filter. Expecting directory structure with files of
-e-mails in plain text. Every e-mail has any existing HTML-tags and URLs
-removed and also its headers (except for the subject) before used.
+e-mails in plain text. Every e-mail will have its headers (except for the
+subject) removed and any existing HTML-tags or URLs in the body will also be
+removed.
 
 ## Results
 
